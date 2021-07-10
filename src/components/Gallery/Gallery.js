@@ -44,22 +44,22 @@ export default function Gallery() {
         </div>
         <div className={classes.content2}>
           <div class="style_prevu_kit">
-          <img src="./images/G1.jpg" width={220} height={152} />
+          <img src="./images/G1.JPG" width={220} height={152} />
           </div>
           <div class="style_prevu_kit">
-          <img src="./images/G2.jpg" width={220} height={152} />
+          <img src="./images/G2.JPG" width={220} height={152} />
           </div>
           <div class="style_prevu_kit">
-          <img src="./images/G3.jpg" width={220} height={152} />
+          <img src="./images/G3.JPG" width={220} height={152} />
           </div>
           <div class="style_prevu_kit">
           <img src="./images/G4.jpg" width={220} height={152} />
           </div>
           <div class="style_prevu_kit">
-          <img src="./images/G5.jpg" width={220} height={152} />
+          <img src="./images/G5.JPG" width={220} height={152} />
           </div>
           <div class="style_prevu_kit">
-          <img src="./images/G6.jpg" width={220} height={152} />
+          <img src="./images/G6.JPG" width={220} height={152} />
           </div>
         </div>
       </div>
