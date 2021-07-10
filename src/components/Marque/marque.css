@@ -1,0 +1,51 @@
+.more{
+    text-decoration: none;
+    float: right;
+    position: relative;
+    top: 10px;
+    color: #000;
+    left: -15px;
+}
+
+.more:hover{
+    color: rgb(12, 12, 128);
+}
+.hoverType{
+    text-decoration: none;
+    color: #00393c;
+}
+.hoverType:hover{
+    color: rgb(12, 12, 128);
+}
+
+@-webkit-keyframes marquee {
+    0%   { -webkit-transform: translate(0, 50%); }
+    100% { -webkit-transform: translate(0, -100%); }
+  } 
+  @keyframes marquee {
+    0%   { -webkit-transform: translate(0, 50%); }
+    100% { -webkit-transform: translate(0, -100%); }
+  } 
+  
+
+  
+  /* define your limiting container */
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 328px;
+  }
+  /* this is the tray moving around your container */
+  .marquee span {
+      width: 100%;
+    display: inline-block;
+    text-indent: 0;
+    animation: marquee 20s linear infinite; /* here you select the animation */
+    -webkit-animation: marquee 20s linear infinite; /* here you select the animation */
+  }
+  /* pause the animation on mouse over */
+  .marquee span:hover {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+  }
