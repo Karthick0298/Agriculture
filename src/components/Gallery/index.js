@@ -5,7 +5,11 @@ import { makeStyles} from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
     container: {
         width: 1320,
-        margin: 'auto'
+        margin: 'auto',
+        [theme.breakpoints.down('md')]: {
+            width: '100%',
+            margin: "auto",
+          },
     }
 }))
 

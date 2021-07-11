@@ -14,6 +14,10 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
     paddingBlock: 32,
     paddingBlock: 52,
+    [theme.breakpoints.down('md')]: {
+      width: '100%',
+      margin: "auto",
+    },
     "& .MuiTypography-h1": {
       fontSize: 42,
       color: "#00393c",

@@ -8,7 +8,11 @@ const useStyles = makeStyles((theme) => ({
         margin: 'auto',
         display: 'flex',
         justifyContent: 'space-between',
-        padding: '20px 0px'
+        padding: '20px 0px',
+        [theme.breakpoints.down('md')]: {
+            width: '100%',
+            margin: "auto",
+          },
     },
     font: {
         '& .MuiTypography-h1': {

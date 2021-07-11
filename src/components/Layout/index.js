@@ -11,6 +11,10 @@ const useStyles = makeStyles((theme) => ({
     width: 1320,
     gap: 24,
     margin: "auto",
+    [theme.breakpoints.down('md')]: {
+      width: '100%',
+      margin: "auto",
+    },
   },
   wrapper1: {
       display: 'flex',

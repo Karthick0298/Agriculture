@@ -6,7 +6,11 @@ const useStyles = makeStyles((theme) => ({
     container: {
         width: 1320,
         margin: 'auto',
-        paddingBlock: 40
+        paddingBlock: 40,
+        [theme.breakpoints.down('md')]: {
+            width: '100%',
+            margin: "auto",
+          },
     }
 }))
 export default function Frequent() {

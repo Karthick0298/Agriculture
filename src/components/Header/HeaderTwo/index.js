@@ -13,7 +13,11 @@ const useStyles = makeStyles((theme) => ({
     zIndex: 999,
     borderTop: '1px solid #ccc',
     borderBottom: '1px solid #ccc',
-    position: "sticky"
+    position: "sticky",
+    [theme.breakpoints.down('md')]: {
+      width: '100%',
+      margin: "auto",
+    },
   },
   arrowList: {
     display: 'flex',

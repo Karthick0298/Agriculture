@@ -16,28 +16,16 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 const useStyles = makeStyles((theme) => ({
   backgroundColor: {
     background: "#00393c",
-    paddingBlock: 70,
-    [theme.breakpoints.down("sm")]: {
-      paddingTop: 0,
-    },
+    padding: 70,
   },
   container: {
-    width: 1148,
-    margin: "auto",
     display: "flex",
-    [theme.breakpoints.down("sm")]: {
-      width: "100%",
-      flexDirection: "column",
-    },
   },
   logo: {
     flex: 0.35,
     display: "flex",
     gap: 8,
     alignItems: "center",
-    [theme.breakpoints.down("sm")]: {
-      padding: 20,
-    },
   },
   root: {
     "&.MuiTypography-body1": {
@@ -51,9 +39,6 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: 38,
     display: "flex",
     flexDirection: "column",
-    [theme.breakpoints.down("sm")]: {
-      padding: 0,
-    },
   },
   navTxt: {
     "&.MuiTypography-h2": {
@@ -98,9 +83,6 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: 38,
     display: "flex",
     flexDirection: "column",
-    [theme.breakpoints.down("sm")]: {
-      padding: 0,
-    },
   },
   navLinks2: {
     display: "flex",
@@ -108,9 +90,6 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: 32,
     paddingLeft:20,
     flexDirection: "column",
-    [theme.breakpoints.down("sm")]: {
-      padding: "16px 24px",
-    },
   },
   address: {
     display: "flex",
@@ -140,11 +119,6 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "flex-end",
     paddingBottom: 36,
     margin: "auto",
-    [theme.breakpoints.down("sm")]: {
-      width: "100%",
-      justifyContent: "flex-start",
-      paddingLeft: 20,
-    },
     '& .MuiListItem-button':{
         borderRadius: 5
     },
@@ -173,16 +147,7 @@ const useStyles = makeStyles((theme) => ({
     padding: 20,
   },
   fContainer: {
-    width: 1148,
-    margin: "auto",
     display: "flex",
-    [theme.breakpoints.down("sm")]: {
-      width: "100%",
-      flexDirection: "column",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-    },
   },
   brand: {
     flex: 1,

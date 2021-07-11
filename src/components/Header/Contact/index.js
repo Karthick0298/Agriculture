@@ -30,6 +30,14 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     width: 1320,
     margin: "auto",
+    [theme.breakpoints.down('md')]: {
+      width: '100%',
+      margin: "auto",
+    },
+    [theme.breakpoints.down('lg')]: {
+      width: '100%',
+      margin: "auto",
+    },
   },
   icon: {
     color: "white",

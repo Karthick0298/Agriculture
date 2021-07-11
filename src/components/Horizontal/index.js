@@ -4,8 +4,6 @@ import Marquee from "react-fast-marquee";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    width: 1320,
-    margin: "auto",
     paddingBlock: 32,
     "& .MuiTypography-h1": {
       fontSize: 42,
